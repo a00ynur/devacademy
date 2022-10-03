@@ -1,0 +1,210 @@
+h1{
+    font-family:'Lobster', cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+    transition: 2s;
+}
+
+h1:hover{
+    color: green;
+    cursor: pointer;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    transition: 3s;
+    cursor: pointer;
+    
+}
+
+img:hover{
+    transform: rotate(720deg);
+    }
+
+.information{
+    display: flex;
+}
+
+.main_information{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.main_information p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -4px;
+    font-size: 18px;
+    margin-left: 100px;  
+}
+
+a{
+    color: black;
+    margin-left: 5px;
+}
+
+.decoration > p{
+    font-family: 'Times New Roman', Times, serif ;
+    cursor: pointer;
+    transition: 2s;
+ }
+ 
+ .decoration p:hover{
+     transform: scale(1.1);
+     color: rgb(219, 1, 1);
+ }
+.birth_date{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.date{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#day{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 19px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    margin-left: 18px;
+    border: 2px solid black;
+}
+
+.box p{
+  
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label{
+    margin-right: 10px;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{list-style: none;}
+
+li{
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.key-skills input{
+    margin-left: 10px;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+     box-shadow: 2px 2px ;
+    background-color: white;
+}
+
+button:hover{
+   color: white;
+    background-color: yellow;
+}
+
+.options{
+    margin-top: 20px;
+}
+
+.options label{
+    font-size: 22px;
+}
+
+select{
+    width: 100px;
+    height: 30px;
+   cursor: pointer;
+   
+}
+.desired_salary{
+    display: flex;
+}
+
+.desired_salary input{
+    height: 20px;
+    width: 70px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+main{
+    margin-left: 80px;
+}
+table{
+    margin-top: 50px;
+    border:2px solid black;
+    border-collapse: collapse;
+    transition: 2s;
+}
+
+td{ 
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;  
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 50px; 
+    transition: 2s; 
+}
+
+tr:hover{
+    cursor: pointer;
+    background-color: rebeccapurple;   
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.save{
+    margin-top: 20px;
+
+}
+
+button{
+    transition: 2s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background-color: rgb(196, 255, 255); 
+}
+
+input{
+    border-radius : 30px;
+    cursor: pointer;
+    border: 2px solid orange;
+}
+
+input:focus{
+  background-color: red;
+}
+
+
+
+
+
