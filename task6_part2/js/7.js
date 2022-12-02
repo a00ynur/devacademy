@@ -7,3 +7,4 @@ while (number>0) {
     number = parseInt(number/10);
 }
 console.log(reverse);
+
